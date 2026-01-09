@@ -1,3 +1,48 @@
 body {
-  background-color: whitesmoke;
+  background-color: black;
+}
+body nav {
+  color: white;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body nav .nav-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+body nav .nav-left a {
+  display: flex;
+  align-items: center;
+}
+body nav .nav-left a img {
+  display: block;
+  height: 40px;
+}
+body nav .navright {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+body nav .navright ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+body nav .navright ul li {
+  display: flex;
+  align-items: center;
+  padding: 0.2em;
+}
+body nav .navright ul li.cap {
+  text-transform: uppercase;
+}
+body nav .navright div {
+  text-align: right;
+}
+body main {
+  color: white;
 }/*# sourceMappingURL=main.css.map */
